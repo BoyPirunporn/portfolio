@@ -8,7 +8,6 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { Email } from "../api/contact/route";
 import { useToast } from "@/hooks/use-toast";
 
 const info = [
@@ -22,6 +21,7 @@ const Contact = () => {
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        setLoading(true);
         const json = {
             firstName: e.currentTarget.firstName.value,
             lastName: e.currentTarget.lastName.value,
@@ -42,7 +42,7 @@ const Contact = () => {
                 title: "Your email has been sent to me.",
             })
         }
-
+        setLoading(false);
     }
     return (
         <motion.div
