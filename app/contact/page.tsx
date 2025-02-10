@@ -26,7 +26,7 @@ const Contact = () => {
         setLoading(true);
         emailJs
             .sendForm('service_2qdccjh', 'template_5vtx1n8', form.current!, {
-                publicKey: '-1J7XJ4OAHnFu-ON',
+                publicKey: '-1J7XJ4OAHnFu-ONa',
             })
             .then(
                 () => {
@@ -41,10 +41,9 @@ const Contact = () => {
                     });
                 },
             ).finally(() => setLoading(false));
-
     };
 
-   
+    
     return (
         <motion.div
             initial={{ opacity: 0 }}
