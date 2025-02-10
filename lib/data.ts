@@ -27,7 +27,7 @@ import { BiLogoTypescript } from 'react-icons/bi';
 import { DiMsqlServer } from 'react-icons/di';
 export const about = {
     title: "About Me",
-    description: "Hello! My name is Pirunporn Aiamsoongnoen. I'm a developer with over 3 years of experience, adept at developing and deploying quality web solutions. I possess a solid foundation in both front-end and back-end development and have approximately 4-5 months of experience in mobile development. I have a strong willingness to learn and adapt to new technologies, always striving to improve my skills and contribute effectively to my team.",
+    description: "Hello! My name is Pirunporn Aiamsoongnoen. I'm a developer, adept at developing and deploying quality web solutions. I possess a solid foundation in both front-end and back-end development and have approximately 4-5 months of experience in mobile development. I have a strong willingness to learn and adapt to new technologies, always striving to improve my skills and contribute effectively to my team.",
     info: [
         {
             fieldName: "Name",
