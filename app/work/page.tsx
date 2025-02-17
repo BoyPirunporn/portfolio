@@ -60,7 +60,7 @@ const projects: Project[] = [
     {
         num: "04",
         category: 'frontend',
-        title: 'project 3',
+        title: 'project 4',
         description: 'เป็นหน้าเว็บเพจที่จะให้ผู้ใช้ดาวน์โหลดใบกำกับภาษีและใบรับอิเล็กทรอนิกส์ที่จะได้รับจาก SMS ของระบบ E-Tax',
         stack: ["ReactJS", "MUI", "Axios", "Redux", "Express"],
         image: "/assets/project/sleasing.png",
@@ -70,13 +70,23 @@ const projects: Project[] = [
     {
         num: "05",
         category: 'Full-stack',
-        title: 'project 3',
+        title: 'project 5',
         description: 'เป็นโครงการของสภากาชาด จัดทำเพื่อเพิ่มพื้นที่สีเขียวในประเทศไทย เชิญชวน เยาวชนประชาชนทั่วไป ร่วมกันปลูกต้นไม้และลงทะเบียนต้นไม้ที่ปลูก สามารถติดตามการเติบโตของต้นไม้และแบ่งปันข้อมูลผ่านระบบออนไลน์',
         stack: ["Html", "Css", "Bootstrap", "JavaScript", "JQuery", "Ajax", "VB.Net", "MSSQL"],
         image: "/assets/project/image.png",
         live: "https://plant.redcross.or.th/",
         github: ""
-    }
+    },
+    // {
+    //     num: "06",
+    //     category: 'Front-end',
+    //     title: 'project 6',
+    //     description: 'เป็นโครงการของสภากาชาด จัดทำเพื่อเพิ่มพื้นที่สีเขียวในประเทศไทย เชิญชวน เยาวชนประชาชนทั่วไป ร่วมกันปลูกต้นไม้และลงทะเบียนต้นไม้ที่ปลูก สามารถติดตามการเติบโตของต้นไม้และแบ่งปันข้อมูลผ่านระบบออนไลน์',
+    //     stack: ["Html", "Css", "Bootstrap", "JavaScript", "JQuery", "Ajax", "VB.Net", "MSSQL"],
+    //     image: "/assets/project/image.png",
+    //     live: "https://plant.redcross.or.th/",
+    //     github: ""
+    // }
 ]
 
 
