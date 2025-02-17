@@ -66,7 +66,7 @@ export const experience = {
             ]
         },
         {
-            company: "2J Solution and ervice ฉo., Ldt",
+            company: "2J Solution and ervice Co., Ldt",
             position: "Full-stack Developer",
             duration: "2022-2024",
             descriptions: [
