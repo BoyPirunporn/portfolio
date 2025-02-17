@@ -77,16 +77,16 @@ const projects: Project[] = [
         live: "https://plant.redcross.or.th/",
         github: ""
     },
-    {
-        num: "06",
-        category: 'Front-end',
-        title: 'project 6',
-        description: 'เทมเพลตหน้าแลนดิ้งเพจรองรับการแสดงผลในทุกอุปกรณ์ (responsive) สร้างขึ้นด้วย NextJS,Tailwindcss และ Motion-Framer  มีการแสดงผลที่เน้นประสบการณ์ของผู้ใช้ที่ดีและการออกแบบที่เรียบง่าย เทมเพลตประกอบด้วยหลายส่วน เช่น Hero, About, Stats และ Contact มีฟีเจอร์การเลื่อนเนื้อหาอย่างราบรื่น (smooth scrolling) และมีการแสดงผลแอนิเมชันเพื่อเพิ่มความน่าสนใจให้กับผู้ใช้',
-        stack: ["Next.js", "Tailwindcss", "motion-framer"],
-        image: "/assets/project/iLanding.png",
-        live: "https://plant.redcross.or.th/",
-        github: ""
-    }
+    // {
+    //     num: "06",
+    //     category: 'Front-end',
+    //     title: 'project 6',
+    //     description: 'เทมเพลตหน้าแลนดิ้งเพจรองรับการแสดงผลในทุกอุปกรณ์ (responsive) สร้างขึ้นด้วย NextJS,Tailwindcss และ Motion-Framer  มีการแสดงผลที่เน้นประสบการณ์ของผู้ใช้ที่ดีและการออกแบบที่เรียบง่าย เทมเพลตประกอบด้วยหลายส่วน เช่น Hero, About, Stats และ Contact มีฟีเจอร์การเลื่อนเนื้อหาอย่างราบรื่น (smooth scrolling) และมีการแสดงผลแอนิเมชันเพื่อเพิ่มความน่าสนใจให้กับผู้ใช้',
+    //     stack: ["Next.js", "Tailwindcss", "motion-framer"],
+    //     image: "/assets/project/iLanding.png",
+    //     live: "https://plant.redcross.or.th/",
+    //     github: ""
+    // }
 ]
 
 
