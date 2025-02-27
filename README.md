@@ -22,8 +22,14 @@ This is a personal portfolio website developed using **Next.js** and **TailwindC
 ### 📸 Preview
 
 <div style='display:"flex";flex-direction:"row";flex-wrap:"wrap" gap:"2rem"'>
-  
+  <a href="https://portfolio-pirunporns-projects.vercel.app/">
+    <img src="public/assets/screenshot.png" />
+  </a>
 </div>
+
+## 🌍 Visit My Portfolio
+
+You can visit my live portfolio at [Portfolio](https://portfolio-pirunporns-projects.vercel.app/)
 
 
 ### 🛠️ Technologies Used
