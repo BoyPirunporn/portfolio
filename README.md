@@ -6,7 +6,7 @@ This is a personal portfolio website developed using **Next.js** and **TailwindC
 
 - 📱 **Fully Responsive**: The website is designed to be mobile-friendly, responsive across tablets and desktops.
 - 🧑‍💻 **Showcase of Projects**: View a variety of projects I have worked on, with detailed descriptions and images.
-- 🏆 **Skills & Services**: Learn more about the technologies I specialize in.
+- 🏆 **Skills**: Learn more about the technologies I specialize in.
 - 📧 **Contact Form**: Reach out to me through the built-in contact form to discuss potential collaborations or inquiries.
 - 🌐 **Social Media Links**: Easily navigate to my LinkedIn, GitHub, and other profiles to stay connected.
 - 🔝 **Scroll to Top Button**: Quickly return to the top of the page with just a click.
