@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+This is a personal portfolio website developed using **Next.js** and **TailwindCSS**. The website showcases my skills, projects, and provides a contact form for communication.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📱 **Fully Responsive**: The website is designed to be mobile-friendly, responsive across tablets and desktops.
+- 🧑‍💻 **Showcase of Projects**: View a variety of projects I have worked on, with detailed descriptions and images.
+- 🏆 **Skills & Services**: Learn more about the technologies I specialize in.
+- 📧 **Contact Form**: Reach out to me through the built-in contact form to discuss potential collaborations or inquiries.
+- 🌐 **Social Media Links**: Easily navigate to my LinkedIn, GitHub, and other profiles to stay connected.
+- 🔝 **Scroll to Top Button**: Quickly return to the top of the page with just a click.
+- ⚡ **Smooth Animations**: Hover and scroll animations add an interactive and engaging touch to the experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** - Framework for building React applications.
+- **TailwindCSS** - Utility-first CSS framework for styling.
+- **Framer Motion** or **TailwindCSS Animations** - For smooth animations.
 
-## Learn More
+### 📸 Preview
 
-To learn more about Next.js, take a look at the following resources:
+<div style='display:"flex";flex-direction:"row";flex-wrap:"wrap" gap:"2rem"'>
+  
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛠️ Technologies Used
 
-## Deploy on Vercel
+- **Frontend:** 📱 NextJs Tailwindcss Framer motion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔧 Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/boypirunporn/portfolio.git  
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd portfolio  
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   or
+   yarn  
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   or
+   yarn start  
+   ```
