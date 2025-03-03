@@ -25,8 +25,8 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
         emailJs
-            .sendForm('service_2qdccjh', 'template_5vtx1n8', form.current!, {
-                publicKey: '-1J7XJ4OAHnFu-ONa',
+            .sendForm(process.env.PROJECT_NAME_EMAIL_JS, process.env.TEMPLATE_EMAIL_JS, form.current!, {
+                publicKey: process.env.PUBLIC_KEY_EMAIL_JS,
             })
             .then(
                 () => {
