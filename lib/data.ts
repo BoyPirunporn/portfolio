@@ -52,9 +52,9 @@ export const experience = {
     title: "My Experience",
     items: [
         {
-            company: "Nippon Sysits Co., Ltd",
-            position: "Front-end Developer",
-            duration: "2020-2022",
+            company: "2J Solution and Service Co., Ldt",
+            position: "Full-stack Developer",
+            duration: "2022-2024",
             descriptions: [
                 "Developed and maintained scalable web and mobile applications using React.js, Node.js, and Flutter.",
                 "Designed and implemented REST APIs to enhance application functionalities.",
@@ -66,9 +66,9 @@ export const experience = {
             ]
         },
         {
-            company: "2J Solution and Service Co., Ldt",
-            position: "Full-stack Developer",
-            duration: "2022-2024",
+            company: "Nippon Sysits Co., Ltd",
+            position: "Front-end Developer",
+            duration: "2020-2022",
             descriptions: [
                 "Built and maintained responsive web applications using VB.NET, jQuery, Bootstrap, HTML, CSS, and JavaScript.",
                 "Optimized front-end components to enhance performance and user experience.",

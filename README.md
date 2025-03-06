@@ -29,7 +29,7 @@ This is a personal portfolio website developed using **Next.js** and **TailwindC
 
 ## 🌍 Visit My Portfolio
 
-You can visit my live portfolio at [Portfolio](https://portfolio-pirunporns-projects.vercel.app/)
+You can visit my live portfolio at [Portfolio](https://portfolio-pearl-psi-31.vercel.app/)
 
 
 ### 🛠️ Technologies Used
