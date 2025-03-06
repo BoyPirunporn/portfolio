@@ -77,16 +77,38 @@ const projects: Project[] = [
         live: "https://plant.redcross.or.th/",
         github: ""
     },
-    // {
-    //     num: "06",
-    //     category: 'Front-end',
-    //     title: 'project 6',
-    //     description: 'เทมเพลตหน้าแลนดิ้งเพจรองรับการแสดงผลในทุกอุปกรณ์ (responsive) สร้างขึ้นด้วย NextJS,Tailwindcss และ Motion-Framer  มีการแสดงผลที่เน้นประสบการณ์ของผู้ใช้ที่ดีและการออกแบบที่เรียบง่าย เทมเพลตประกอบด้วยหลายส่วน เช่น Hero, About, Stats และ Contact มีฟีเจอร์การเลื่อนเนื้อหาอย่างราบรื่น (smooth scrolling) และมีการแสดงผลแอนิเมชันเพื่อเพิ่มความน่าสนใจให้กับผู้ใช้',
-    //     stack: ["Next.js", "Tailwindcss", "motion-framer"],
-    //     image: "/assets/project/iLanding.png",
-    //     live: "https://plant.redcross.or.th/",
-    //     github: ""
-    // }
+    {
+        num: "06",
+        category: 'Mobile application',
+        title: 'project 6',
+        description: 'เกมตอบคำถามแบบง่าย ๆ ที่ผู้เล่นจะต้องตอบคำถามแบบเลือกตอบและติดตามคะแนนของตนเองบนกระดานคะแนน',
+        stack: ["React Native", "Zustand", "Firebase"],
+        image: "/assets/project/quizapp.png",
+        live: "https://drive.google.com/file/d/1lFgJNMfYc4YuvWp0gAIcza6t_sgMQjCY/view",
+        github: "https://github.com/BoyPirunporn/restaurantsWithGooglePlaceApi?tab=readme-ov-file"
+    },
+    {
+        num: "07",
+        category: 'Front-end',
+        title: 'project 6',
+        description: 'หน้า Landing Page สำหรับธุรกิจ สตาร์ทอัพ และโปรเจ็กต์ดิจิทัลที่มีดีไซน์ทันสมัยและใช้งานง่าย โดยใช้ NextJs, tailwindcss และ motion-framer',
+        stack: ["Next.js", "Tailwindcss", "motion-framer"],
+        image: "/assets/project/iLanding.png",
+        live: "https://i-landing.vercel.app/",
+        github: "https://github.com/BoyPirunporn/iLanding"
+    },
+
+    {
+        num: "08",
+        category: 'Front-end',
+        title: 'project 6',
+        description: 'แอปพลิเคชั่นค้นหาร้านอาหารที่ทันสมัยและใช้งานง่ายซึ่งสร้างขึ้นด้วย TypeScript และ Material UI ค้นหาร้านอาหารได้อย่างง่ายดายโดยใช้คำสำคัญหรือหมวดหมู่และสำรวจรายละเอียดได้ในครั้งเดียว แอปพลิเคชั่นจะค้นหาร้านอาหารภายในรัศมี 5 กิโลเมตร โดยให้ผู้ใช้สามารถกรองตามชื่อหรือประเภท เช่น ร้านอาหาร เบเกอรี่ หรือคาเฟ่',
+        stack: ["ReactJs", "Redux", "Material UI"],
+        image: "/assets/project/restaurants.png",
+        live: "",
+        github: "https://github.com/BoyPirunporn/restaurantsWithGooglePlaceApi?tab=readme-ov-file"
+    },
+    
 ]
 
 
