@@ -52,9 +52,17 @@ export const experience = {
     title: "My Experience",
     items: [
         {
+            company: "Humanica Public Company Limited",
+            position: "Senior software developer",
+            duration: "2025-Present",
+            descriptions: [
+                "Support NetSuite modify form and add feature for customer",
+            ]
+        },
+        {
             company: "2J Solution and Service Co., Ldt",
             position: "Full-stack Developer",
-            duration: "2022-2024",
+            duration: "2022-2025",
             descriptions: [
                 "Developed and maintained scalable web and mobile applications using React.js, Node.js, and Flutter.",
                 "Designed and implemented REST APIs to enhance application functionalities.",
