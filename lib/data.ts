@@ -56,7 +56,7 @@ export const experience = {
             position: "Senior software developer",
             duration: "2025-Present",
             descriptions: [
-                "Support NetSuite modify form and add feature for customer",
+                "Provide support and customization for NetSuite to align with customer requirements, including feature enhancements and system adjustments.",
             ]
         },
         {
