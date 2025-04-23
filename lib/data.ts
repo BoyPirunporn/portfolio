@@ -51,14 +51,14 @@ export const experience = {
     icon: '/assets/badge.svg',
     title: "My Experience",
     items: [
-        {
-            company: "Humanica Public Company Limited",
-            position: "Senior software developer",
-            duration: "2025-Present",
-            descriptions: [
-                "Provide support and customization for NetSuite to align with customer requirements, including feature enhancements and system adjustments.",
-            ]
-        },
+        // {
+        //     company: "Humanica Public Company Limited",
+        //     position: "Senior software developer",
+        //     duration: "2025-Present",
+        //     descriptions: [
+        //         "Provide support and customization for NetSuite to align with customer requirements, including feature enhancements and system adjustments.",
+        //     ]
+        // },
         {
             company: "2J Solution and Service Co., Ldt",
             position: "Full-stack Developer",
