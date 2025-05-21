@@ -6,6 +6,7 @@ import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -38,6 +39,7 @@ export default function RootLayout({
           {children}
         </PageTransition>
         <Analytics/>
+        <SpeedInsights/>
       </body>
     </html>
   );
