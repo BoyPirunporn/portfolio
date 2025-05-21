@@ -51,14 +51,16 @@ export const experience = {
     icon: '/assets/badge.svg',
     title: "My Experience",
     items: [
-        // {
-        //     company: "Humanica Public Company Limited",
-        //     position: "Senior software developer",
-        //     duration: "2025-Present",
-        //     descriptions: [
-        //         "Provide support and customization for NetSuite to align with customer requirements, including feature enhancements and system adjustments.",
-        //     ]
-        // },
+        {
+            company: "DataOne Asia (Thailand) Company Limited",
+            position: "Senior Software Developer",
+            duration: "2025-Present",
+            descriptions: [
+                "Identified and fixed common security issues such as SQL injection, XSS, hardcoded credentials, insecure cryptographic algorithms, and improper input validation.",
+                "Reviewed and remediated source code vulnerabilities to comply with VA_SCAN",
+                "Developed and maintained scalable web applications using Spring boot.",
+            ]
+        },
         {
             company: "2J Solution and Service Co., Ldt",
             position: "Full-stack Developer",
