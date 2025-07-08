@@ -56,9 +56,7 @@ export const experience = {
             position: "Senior Software Developer",
             duration: "2025-Present",
             descriptions: [
-                "Identified and fixed common security issues such as SQL injection, XSS, hardcoded credentials, insecure cryptographic algorithms, and improper input validation.",
-                "Reviewed and remediated source code vulnerabilities to comply with VA_SCAN",
-                "Developed and maintained scalable web applications using Spring boot.",
+                "Developed and maintained scalable web applications using Spring boot."
             ]
         },
         {
