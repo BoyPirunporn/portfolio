@@ -7,7 +7,8 @@ import {
     FaGit,
     FaDocker,
     FaLaravel,
-    FaLinux
+    FaLinux,
+    FaJava
 
 
 } from 'react-icons/fa';
@@ -19,15 +20,16 @@ import {
     SiRedux,
     SiMysql,
     SiNginx,
+    SiPostgresql,
      
 
 } from 'react-icons/si';
-import { BiLogoTypescript } from 'react-icons/bi';
+import { BiLogoTypescript,BiLogoSpringBoot } from 'react-icons/bi';
 
 import { DiMsqlServer } from 'react-icons/di';
 export const about = {
     title: "About Me",
-    description: "Hello! My name is Pirunporn Aiamsoongnoen. I'm a developer, adept at developing and deploying quality web solutions. I possess a solid foundation in both front-end and back-end development and have approximately 4-5 months of experience in mobile development. I have a strong willingness to learn and adapt to new technologies, always striving to improve my skills and contribute effectively to my team.",
+    description: "Hello! My name is Pirunporn Aiamsoongnoen. I’m a full-stack developer with experience in web and mobile applications. I’m eager to learn new technologies and always strive to improve my skills to contribute effectively to my team.",
     info: [
         {
             fieldName: "Name",
@@ -105,6 +107,8 @@ export const skills = {
         { icon: FaReact, name: "React.js & React Native" },
         { icon: SiNextdotjs, name: "Next.js" },
         { icon: SiRedux, name: "Redux" },
+        { icon: FaJava, name: "Java" },
+        { icon: BiLogoSpringBoot, name: "Spring Boot" },
         { icon: FaNodeJs, name: "Node.js" },
         { icon: FaLaravel, name: "Laravel" },
         { icon: SiTailwindcss, name: "Tailwindcss" },
@@ -114,6 +118,7 @@ export const skills = {
         { icon: FaLinux, name: "Linux" },
         { icon: SiNginx, name: "Nginx" },
         { icon: SiMysql, name: "MySQL" },
+        { icon: SiPostgresql, name: "Postgresql" },
         { icon: DiMsqlServer, name: "SQL Server" },
 
     ]

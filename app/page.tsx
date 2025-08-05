@@ -19,7 +19,7 @@ export default function Home() {
 
             <p className="max-w-[500px] mb-9 text-white/80">I'm a FullStack developer and I enjoy learning and exploring new technologies. To continuously improve my skills.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant={"outline"} onClick={() => window.open('https://drive.google.com/file/d/1PUTIKF6cw5mJbMdM5C3sxBMAXJPmM4aE', '_blank')} size={"lg"} className="uppercase flex items-center gap-2">
+              <Button variant={"outline"} onClick={() => window.open('https://drive.google.com/file/d/1DJXZY6v1ki3KXA-QBi5UNRukCZLiQ4FC/view?usp=drive_link', '_blank')} size={"lg"} className="uppercase flex items-center gap-2">
                 <span>Download CV</span>
                 <FiDownload />
               </Button>
