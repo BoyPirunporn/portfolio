@@ -54,17 +54,28 @@ export const experience = {
     title: "My Experience",
     items: [
         {
-            company: "DataOne Asia (Thailand) Company Limited",
-            position: "Senior Software Developer",
-            duration: "2025-Present",
+            company: "RCL GROUP",
+            position: "Software Developer",
+            duration: "3-Nov-2025 - Present",
             descriptions: [
-                "Developed and maintained scalable web applications using Spring boot."
+                "Developed and maintained scalable web applications using stack such Spring boot. React.js, Next.js, and Tailwindcss.",
+                "Collaborated with cross-functional teams to define, design, and ship new features.",
+                "Optimized application performance and ensured high availability.",
+                "Integrated third-party services and APIs to extend application functionalities."
+            ]
+        },
+        {
+            company: "DataOne Asia (Thailand) Company Limited",
+            position: "Software Developer",
+            duration: "2-May-2025 - 31-Oct-2025",
+            descriptions: [
+                "Developed and maintained scalable web applications using Spring boot.",
             ]
         },
         {
             company: "2J Solution and Service Co., Ldt",
             position: "Full-stack Developer",
-            duration: "2022-2025",
+            duration: "1-Api-2022 - 31-Mar-2025",
             descriptions: [
                 "Developed and maintained scalable web and mobile applications using React.js, Node.js, and Flutter.",
                 "Designed and implemented REST APIs to enhance application functionalities.",
@@ -78,7 +89,7 @@ export const experience = {
         {
             company: "Nippon Sysits Co., Ltd",
             position: "Front-end Developer",
-            duration: "2020-2022",
+            duration: "1-Dec-2020 - 31-Mar-2022",
             descriptions: [
                 "Built and maintained responsive web applications using VB.NET, jQuery, Bootstrap, HTML, CSS, and JavaScript.",
                 "Optimized front-end components to enhance performance and user experience.",
