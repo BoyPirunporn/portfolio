@@ -21,12 +21,15 @@ import {
     SiMysql,
     SiNginx,
     SiPostgresql,
-     
+    SiFlutter,
+    SiNestjs,
+
 
 } from 'react-icons/si';
-import { BiLogoTypescript,BiLogoSpringBoot } from 'react-icons/bi';
+import { BiLogoTypescript, BiLogoSpringBoot } from 'react-icons/bi';
 
 import { DiMsqlServer } from 'react-icons/di';
+import { calculateExperience } from './utils';
 export const about = {
     title: "About Me",
     description: "Hello! My name is Pirunporn Aiamsoongnoen. I’m a full-stack developer with experience in web and mobile applications. I’m eager to learn new technologies and always strive to improve my skills to contribute effectively to my team.",
@@ -41,7 +44,7 @@ export const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "4+ years"
+            fieldValue: `${calculateExperience('2020-12-01').years}+ years`
         },
         {
             fieldName: "Email",
@@ -119,6 +122,7 @@ export const skills = {
         { icon: SiNextdotjs, name: "Next.js" },
         { icon: SiRedux, name: "Redux" },
         { icon: FaJava, name: "Java" },
+        { icon: SiFlutter, name: "Flutter" },
         { icon: BiLogoSpringBoot, name: "Spring Boot" },
         { icon: FaNodeJs, name: "Node.js" },
         { icon: FaLaravel, name: "Laravel" },
