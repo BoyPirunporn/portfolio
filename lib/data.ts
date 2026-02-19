@@ -30,6 +30,8 @@ import { BiLogoTypescript, BiLogoSpringBoot } from 'react-icons/bi';
 
 import { DiMsqlServer } from 'react-icons/di';
 import { calculateExperience } from './utils';
+import { Project } from '@/app/types/typed';
+
 export const about = {
     title: "About Me",
     description: "Hello! My name is Pirunporn Aiamsoongnoen. I’m a full-stack developer with experience in web and mobile applications. I’m eager to learn new technologies and always strive to improve my skills to contribute effectively to my team.",
@@ -138,3 +140,89 @@ export const skills = {
 
     ]
 }
+
+
+export const projects: Project[] = [
+    {
+        num: "01",
+        category: 'Full-stack',
+        title: 'project 1',
+        description: 'ให้บริการ e-Tax Invoice & e-Receipt ซึ่งเป็นการออกใบกำกับภาษีและใบเสร็จรับเงินในรูปแบบอิเล็กทรอนิกส์ เป็นบริการที่ช่วยจัดทำและส่งมอบเอกสารภาษีในรูปแบบดิจิทัลได้สะดวกและปลอดภัย บริการ e-Tax Invoice & e-Receipt ให้บริการกับธนาคารกสิกรไทย (KBank), ธนาคารกรุงเทพ (BBL), ธนาคารกรุงศรีอยุธยา (BAY), และธนาคารธนชาตหรือทีเอ็มบีธนชาต (TBANK หรือ RBH) ช่วยในการอำนวยความสะดวกให้ธุรกิจสามารถจัดการเอกสารภาษีและใบเสร็จแบบดิจิทัลง่ายและปลอดภัย การส่งมอบข้อมูลที่เป็นไปตามมาตรฐานของกรมสรรพากรและหน่วยงานที่เกี่ยวข้อง',
+        stack: ["Laravel", "Redis", "MySQL"],
+        image: "/assets/project/etax.jpg",
+        live: "https://kbank.etaxsolution.com/",
+        github: ""
+    },
+    {
+        num: "02",
+        category: 'frontend',
+        title: 'project 2',
+        description: 'Saypays POS เป็นแอปพลิเคชั่นระบบ Point of Sales (POS) ที่พัฒนาขึ้นเพื่อช่วย ธุรกิจขนาดเล็ก (SMEs) และร้านค้าใหม่ ให้สามารถบริหารจัดการหน้าร้าน ระบบชำระเงิน และสต็อกสินค้าได้อย่างมีประสิทธิภาพ โดยไม่ต้องเสียค่าใช้จ่ายเริ่มต้น',
+        stack: ["Flutter", "Provider"],
+        image: "/assets/project/Photo.jpg",
+        live: "https://apps.apple.com/th/app/saypayspos/id6651832881?l=th",
+        github: ""
+    },
+    {
+        num: "03",
+        category: 'frontend',
+        title: 'project 3',
+        description: 'เป็นบริการที่แยกออกมาจากตัวระบบหลัก (E-Tax) ที่จะให้บริการแก่ บริษัท ปตท. นํ้ามัน และการค้าปลีก จำกัด (มหาชน) (OR) ในการที่จะนำส่งข้อมูลใบกำกับภาษีอิเล็กทรอนิกส์และใบรับอิเล็กทรอนิกส์ (e-Tax invoice & e-Receipt) ทางด้าน Online ณ จุดบริการสถานีน้ำมันที่อยู่ภายใต้เครือข่ายของบริษัท OR และตัวแทนผู้จำหน่ายน้ำมัน (Dealer) เมื่อเกิดรายการขายน้ำมัน',
+        stack: ["ReactJS", "MUI", "Axios", "Redux", "Express"],
+        image: "/assets/project/buyer.png",
+        live: "https://pttor-buyer.etaxsolution.com/",
+        github: ""
+    },
+    {
+        num: "04",
+        category: 'frontend',
+        title: 'project 4',
+        description: 'เป็นหน้าเว็บเพจที่จะให้ผู้ใช้ดาวน์โหลดใบกำกับภาษีและใบรับอิเล็กทรอนิกส์ที่จะได้รับจาก SMS ของระบบ E-Tax',
+        stack: ["ReactJS", "MUI", "Axios", "Redux", "Express"],
+        image: "/assets/project/sleasing.png",
+        live: "https://pttor-buyer.etaxsolution.com/",
+        github: ""
+    },
+    {
+        num: "05",
+        category: 'Full-stack',
+        title: 'project 5',
+        description: 'เป็นโครงการของสภากาชาด จัดทำเพื่อเพิ่มพื้นที่สีเขียวในประเทศไทย เชิญชวน เยาวชนประชาชนทั่วไป ร่วมกันปลูกต้นไม้และลงทะเบียนต้นไม้ที่ปลูก สามารถติดตามการเติบโตของต้นไม้และแบ่งปันข้อมูลผ่านระบบออนไลน์',
+        stack: ["Html", "Css", "Bootstrap", "JavaScript", "JQuery", "Ajax", "VB.Net", "MSSQL"],
+        image: "/assets/project/image.png",
+        live: "https://plant.redcross.or.th/",
+        github: ""
+    },
+    {
+        num: "06",
+        category: 'Mobile application',
+        title: 'project 6',
+        description: 'เกมตอบคำถามแบบง่าย ๆ ที่ผู้เล่นจะต้องตอบคำถามแบบเลือกตอบและติดตามคะแนนของตนเองบนกระดานคะแนน',
+        stack: ["React Native", "Zustand", "Firebase"],
+        image: "/assets/project/quizapp.png",
+        live: "https://drive.google.com/file/d/1lFgJNMfYc4YuvWp0gAIcza6t_sgMQjCY/view",
+        github: "https://github.com/BoyPirunporn/restaurantsWithGooglePlaceApi?tab=readme-ov-file"
+    },
+    {
+        num: "07",
+        category: 'Front-end',
+        title: 'project 6',
+        description: 'หน้า Landing Page สำหรับธุรกิจ สตาร์ทอัพ และโปรเจ็กต์ดิจิทัลที่มีดีไซน์ทันสมัยและใช้งานง่าย โดยใช้ NextJs, tailwindcss และ motion-framer',
+        stack: ["Next.js", "Tailwindcss", "motion-framer"],
+        image: "/assets/project/iLanding.png",
+        live: "https://i-landing.vercel.app/",
+        github: "https://github.com/BoyPirunporn/iLanding"
+    },
+
+    {
+        num: "08",
+        category: 'Front-end',
+        title: 'project 6',
+        description: 'แอปพลิเคชั่นค้นหาร้านอาหารที่ทันสมัยและใช้งานง่ายซึ่งสร้างขึ้นด้วย TypeScript และ Material UI ค้นหาร้านอาหารได้อย่างง่ายดายโดยใช้คำสำคัญหรือหมวดหมู่และสำรวจรายละเอียดได้ในครั้งเดียว แอปพลิเคชั่นจะค้นหาร้านอาหารภายในรัศมี 5 กิโลเมตร โดยให้ผู้ใช้สามารถกรองตามชื่อหรือประเภท เช่น ร้านอาหาร เบเกอรี่ หรือคาเฟ่',
+        stack: ["ReactJs", "Redux", "Material UI"],
+        image: "/assets/project/restaurants.png",
+        live: "",
+        github: "https://github.com/BoyPirunporn/restaurantsWithGooglePlaceApi?tab=readme-ov-file"
+    },
+    
+]

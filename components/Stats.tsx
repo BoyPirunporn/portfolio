@@ -1,9 +1,9 @@
-import { skills } from '@/lib/data';
-import { EachElement } from '@/lib/utils';
+import { projects, skills } from '@/lib/data';
+import { calculateExperience, EachElement } from '@/lib/utils';
 import CountUp from 'react-countup'
 const stats = [
-    { num: 4, text: "Years of experience" },
-    { num: 5, text: "Projects completed" },
+    { num: calculateExperience("2020-12-01").years, text: "Years of experience" },
+    { num: projects.length, text: "Projects" },
     { num: skills.skillLists.length, text: "Techonologies of experience" },
 ]
 const Stats = () => {
