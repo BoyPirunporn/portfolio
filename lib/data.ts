@@ -63,10 +63,7 @@ export const experience = {
             position: "Software Developer",
             duration: "3-Nov-2025 - Present",
             descriptions: [
-                "Developed and maintained scalable web applications using stack such Spring boot. React.js, Next.js, and Tailwindcss.",
-                "Collaborated with cross-functional teams to define, design, and ship new features.",
-                "Optimized application performance and ensured high availability.",
-                "Integrated third-party services and APIs to extend application functionalities."
+                "Migrated legacy systems to modern web applications using Spring Boot, React.js, Next.js, and Tailwind CSS, while maintaining and enhancing newly developed systems with a strong focus on stability, and performance. Worked closely with cross-functional teams to design and deliver new features and system improvements, and integrated external services and APIs to support evolving business requirements."
             ]
         },
         {
@@ -74,7 +71,7 @@ export const experience = {
             position: "Software Developer",
             duration: "2-May-2025 - 31-Oct-2025",
             descriptions: [
-                "Developed and maintained scalable web applications using Spring boot.",
+                "Responsible for developing, maintaining, and enhancing web applications built on a microservices architecture using Spring Boot, with Angular and Thymeleaf for frontend development, supporting legacy systems, system migration, and new project development.",
             ]
         },
         {
@@ -82,13 +79,7 @@ export const experience = {
             position: "Full-stack Developer",
             duration: "1-Api-2022 - 31-Mar-2025",
             descriptions: [
-                "Developed and maintained scalable web and mobile applications using React.js, Node.js, and Flutter.",
-                "Designed and implemented REST APIs to enhance application functionalities.",
-                "Collaborated with UI/UX designers to create seamless user experiences.",
-                "Conducted unit and integration testing to ensure software reliability and performance.",
-                "Improved application response time by optimizing database queries and front-end performance.",
-                "Set up environment websites using OS Linux, including configuring ports and Nginx, to ensure accessibility in browsers.",
-                "Led the mobile application development for the POS UI System on the SayPay Project using Flutter (Android and iOS), ensuring a seamless user experience across platforms."
+                "Responsible for setting up and managing server environments for testing, maintaining legacy systems, and developing new projects including web applications using React, Laravel, and Node.js. Also developed and maintained the SayPay mobile application using Flutter for both Android and iOS platforms."
             ]
         },
         {
@@ -96,10 +87,7 @@ export const experience = {
             position: "Front-end Developer",
             duration: "1-Dec-2020 - 31-Mar-2022",
             descriptions: [
-                "Built and maintained responsive web applications using VB.NET, jQuery, Bootstrap, HTML, CSS, and JavaScript.",
-                "Optimized front-end components to enhance performance and user experience.",
-                "Integrated RESTful APIs to ensure smooth data retrieval and management.",
-                "Worked closely with cross-functional teams to deliver high-quality software products.",
+                "Developed full web applications from scratch, working on both front-end and back-end using VB.NET and ASP.NET (ASPX). Built responsive user interfaces with Bootstrap, HTML, JavaScript, and CSS, and implemented back-end logic and data handling to support application functionality.",
             ]
         },
     ]
