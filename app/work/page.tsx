@@ -99,17 +99,39 @@ const Work = () => {
                         <Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12' onSlideChange={handleSlideChange}>
                             {projects.map((project, index) => (
                                 <SwiperSlide key={index} className='w-full'>
-                                    <div className="h-[460px] ">
-                                        <div className='absolute top-0 bottom-0 w-full h-full  z-10'></div>
-                                        <div className="relative h-full w-full">
-                                            <Image
-                                                src={project.image}
-                                                alt=''
-                                                className='object-contain'
-                                                fill
-                                            />
+                                    {project.image.length > 1 ? (
+                                        <div className="grid grid-cols-3 gap-2">
+                                            {project.image.map(img => (
+                                                <div key={img} className="h-[460px] ">
+                                                    <div className='absolute top-0 bottom-0 w-full h-full  z-10'></div>
+                                                    <div className="relative h-full w-full">
+                                                        <Image
+                                                            src={img}
+                                                            alt=''
+                                                            className='object-contain'
+                                                            fill
+                                                        />
+                                                    </div>
+                                                </div>
+                                            ))}
                                         </div>
-                                    </div>
+                                    ) : (
+                                        project.image.map(img => {
+                                            return (
+                                                <div className="h-[460px] ">
+                                                    <div className='absolute top-0 bottom-0 w-full h-full  z-10'></div>
+                                                    <div className="relative h-full w-full">
+                                                        <Image
+                                                            src={img}
+                                                            alt=''
+                                                            className='object-contain'
+                                                            fill
+                                                        />
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    )}
                                 </SwiperSlide>
                             ))}
                             {/* <WorkSliderBtns */}
