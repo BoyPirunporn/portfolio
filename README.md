@@ -23,7 +23,7 @@ This is a personal portfolio website developed using **Next.js** and **TailwindC
 
 <div style='display:"flex";flex-direction:"row";flex-wrap:"wrap" gap:"2rem"'>
   <a href="https://portfolio-pirunporns-projects.vercel.app/">
-    <img src="public/assets/screenshot.png" />
+    <img src="public/assets/Screenshot-v2.png" />
   </a>
 </div>
 
