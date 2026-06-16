@@ -59,17 +59,9 @@ export const experience = {
     title: "My Experience",
     items: [
         {
-            company: "RCL GROUP",
-            position: "Software Developer",
-            duration: "3-Nov-2025 - Present",
-            descriptions: [
-                "Migrated legacy systems to modern web applications using Spring Boot, React.js, Next.js, and Tailwind CSS, while maintaining and enhancing newly developed systems with a strong focus on stability, and performance. Worked closely with cross-functional teams to design and deliver new features and system improvements, and integrated external services and APIs to support evolving business requirements."
-            ]
-        },
-        {
             company: "DataOne Asia (Thailand) Company Limited",
             position: "Software Developer",
-            duration: "2-May-2025 - 31-Oct-2025",
+            duration: "2-May-2025 - Present",
             descriptions: [
                 "Responsible for developing, maintaining, and enhancing web applications built on a microservices architecture using Spring Boot, with Angular and Thymeleaf for frontend development, supporting legacy systems, system migration, and new project development.",
             ]
